@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 洪亮的博客
-email: 57013743.com
+title: 若男的博客
+email: 
 description: > # this means to ignore newlines until "baseurl:"
   This blog is mainly about my learning experience, 
   including java, python, go, linux and maybe something else.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.lhliang.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lruonan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  liuhliu
 
 # Build settings
@@ -73,15 +73,15 @@ sass:
 # so be sure to set them if your theme uses them.
 #
 domain:
-  name: blog.lhliang.com
-  url: https://blog.lhliang.com
+  name: lruonan.github.io
+  url: https://lruonan.github.io/
 
 context: /
 
 author:
-  name: liu hongliang
-  email: 570137843@qq.com
-  github: liuhliu
+  name: ruonan
+  email: 
+  github: lruonan
 
 # All specific configurations are namespaced into this hash
 #
@@ -93,7 +93,7 @@ addons:
   comments:
     provider: disqus
     disqus:
-      short_name: blog-lhliang-com
+      short_name: 
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
