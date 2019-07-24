@@ -8,7 +8,7 @@
   <meta name="author" content="{{ site.author.name }}" />
   {% if page.title %}<meta name="title" content="{{ page.title }}" />{% endif %}
   {% if page.tags %}<meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% endif %}
-  <title>{{ page.title }} - blog.lhliang.com</title>
+  <title>{{ page.title }} - lruonan.github.io</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico">
   <link rel="stylesheet" href="/assets/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="/assets/app/css/screen.css" type="text/css" media="screen" />
@@ -38,7 +38,6 @@
           {% if page.navigation == "archives" %}<li class="active"><a href="/archives">归档</a></li>{% else %}<li><a href="/archives">归档</a></li>{% endif %}
           {% if page.navigation == "tags" %}<li class="active"><a href="/tags">标签</a></li>{% else %}<li><a href="/tags">标签</a></li>{% endif %}
           {% if page.navigation == "about" %}<li class="active"><a href="/about">关于</a></li>{% else %}<li><a href="/about">关于</a></li>{% endif %}
-          <li><a href="https://lhliang.com">联系</a></li>
         </ul>
       </nav>
     </div>
